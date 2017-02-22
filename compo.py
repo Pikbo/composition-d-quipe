@@ -29,7 +29,7 @@ def couple_proche(liste):
                 maxi = abs(liste[i][1]-liste[j][1])
     return(couple)
 
-print(couple_proche(joueur))
+#print(couple_proche(joueur))
 
 """ La fonction compo prend en argument une liste de joueurs et renvoie deux listes de joueurs le niveau de chacune des deux listes et la différence de niveau.
 Tant que la liste joueurs est non vide je cherche dans cette liste avec la fonction couple_proche, deux joueurs ayant le plus proche niveau. Pour répartir ces deux joueurs(qu'on j1 et j2) dans les
@@ -81,4 +81,4 @@ def compo(liste):
                         break
     return(equipe1,somme(equipe1),equipe2,somme(equipe2),diff)
 
-print(compo(joueur))
+#print(compo(joueur))
